@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unagent"
+version = "0.1.0"
+description = "Not an agent but a friend, coworker, and homie."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Unagent Contributors" }]
+keywords = ["ai", "assistant", "cli", "developer-tools"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "mypy>=1.11.0",
+  "pytest>=8.2.0",
+  "pytest-cov>=5.0.0",
+  "ruff>=0.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/unagent"
+Repository = "https://github.com/your-username/unagent"
+Issues = "https://github.com/your-username/unagent/issues"
+
+[project.scripts]
+unagent = "unagent.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_return_any = true
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]

@@ -4,6 +4,7 @@
 
 [![CI](https://github.com/dmitriidiagilev/unagent/actions/workflows/ci.yml/badge.svg)](https://github.com/dmitriidiagilev/unagent/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/dmitriidiagilev/unagent/actions/workflows/codeql.yml/badge.svg)](https://github.com/dmitriidiagilev/unagent/actions/workflows/codeql.yml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/dmitriidiagilev/unagent/badge)](https://securityscorecards.dev/viewer/?uri=github.com/dmitriidiagilev/unagent)
 
 `unagent` is a clean starter repository for a lightweight AI-style CLI assistant.
 It includes a production-looking structure with CI, linting, typing, tests, and security automation.

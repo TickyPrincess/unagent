@@ -2,8 +2,8 @@
 
 > Not an agent but a friend, coworker, and homie.
 
-[![CI](https://github.com/your-username/unagent/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/unagent/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/your-username/unagent/actions/workflows/codeql.yml/badge.svg)](https://github.com/your-username/unagent/actions/workflows/codeql.yml)
+[![CI](https://github.com/dmitriidiagilev/unagent/actions/workflows/ci.yml/badge.svg)](https://github.com/dmitriidiagilev/unagent/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/dmitriidiagilev/unagent/actions/workflows/codeql.yml/badge.svg)](https://github.com/dmitriidiagilev/unagent/actions/workflows/codeql.yml)
 
 `unagent` is a clean starter repository for a lightweight AI-style CLI assistant.
 It includes a production-looking structure with CI, linting, typing, tests, and security automation.
@@ -20,7 +20,7 @@ It includes a production-looking structure with CI, linting, typing, tests, and 
 ## Quick start
 
 ```bash
-git clone https://github.com/your-username/unagent.git
+git clone https://github.com/dmitriidiagilev/unagent.git
 cd unagent
 python -m venv .venv
 source .venv/bin/activate

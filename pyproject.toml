@@ -32,9 +32,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-username/unagent"
-Repository = "https://github.com/your-username/unagent"
-Issues = "https://github.com/your-username/unagent/issues"
+Homepage = "https://github.com/dmitriidiagilev/unagent"
+Repository = "https://github.com/dmitriidiagilev/unagent"
+Issues = "https://github.com/dmitriidiagilev/unagent/issues"
 
 [project.scripts]
 unagent = "unagent.cli:main"
